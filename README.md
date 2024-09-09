@@ -1,2 +1,2 @@
 # foodie
-A full-stack food delivery platform enabling users to browse restaurant menus, place orders, and track deliveries.
+A modern food blog platform for sharing recipes, cooking tips, and food reviews. Features include user-friendly content management, recipe categorization, search functionality, and social media integration for sharing posts.
