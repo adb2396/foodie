@@ -1,0 +1,41 @@
+
+.recipe-page {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.recipe-image {
+  width: 580px; 
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.content > .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.save-as-btn {
+  align-self: flex-start;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.save-as-btn.remove {
+  background-color: rgb(95, 2, 2) ;
+}
