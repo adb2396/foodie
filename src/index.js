@@ -4,12 +4,15 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router'
+import GlobalContextProvider from './context/GlobalContextProvider'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		<GlobalContextProvider>
+			<RouterProvider router={router} />
+		</GlobalContextProvider>
 	</React.StrictMode>
 )
 
