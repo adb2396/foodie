@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: salmon;
+  box-shadow: 0 2px 8px lightgray;
+  padding: 0 20px;
+}
+
+.search-input {
+  width: 420px;
+  height: 25px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+  padding: 0 10px;
+  box-shadow: 1px 1px 4px white;
+}
+
+.brand-icon {
+  font-size: 22px;
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: navy;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: navy;
+  font-weight: 500;
+}

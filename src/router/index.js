@@ -3,7 +3,7 @@ import Favourites from '../pages/Favourites/Favourites'
 import Recipe from '../pages/Recipe/Recipe'
 import Home from '../pages/Home/Home'
 import { ROUTES } from './routes'
-import Layout from '../Layout/Layout'
+import Layout from '../layout/Layout'
 
 export const router = createBrowserRouter([
 	{
